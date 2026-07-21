@@ -38,3 +38,14 @@ export default function Contact() {
             <span>Thank you! Your enquiry has been received. Our team will contact you shortly.</span>
           </div>
         )}
+            type="submit" 
+            className="w-full py-3.5 rounded-xl bg-primary text-white font-bold hover:bg-primary-dark transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary/10"
+          >
+            <FiSend size={16} /> Send Enquiry
+            <Send size={16} /> Send Enquiry
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
